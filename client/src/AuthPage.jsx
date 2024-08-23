@@ -12,7 +12,7 @@ const AuthPage = (props) => {
             props.onAuth({ ...response.data, secret: username });
         } catch (error) {
             console.error("error", error);
-            // Optionally set an error state here to show user feedback
+            
         }
     };
 
